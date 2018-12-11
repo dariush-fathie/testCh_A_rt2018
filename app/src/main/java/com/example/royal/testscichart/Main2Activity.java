@@ -18,7 +18,6 @@ import java.util.Collections;
 
 public class Main2Activity extends AppCompatActivity {
 
-
     private IAxis xAxis, yAxis;
     private FastColumnRenderableSeries rs;
 
@@ -55,7 +54,7 @@ public class Main2Activity extends AppCompatActivity {
                 Collections.addAll(surface.getYAxes(), yAxis);
                 Collections.addAll(surface.getRenderableSeries(), rs);
 
-                sciChartBuilder.newAnimator(rs).withWaveTransformation(0f ,1500).start();
+                //sciChartBuilder.newAnimator(rs).withWaveTransformation(0f ,1500).start();
             }
         });
 
